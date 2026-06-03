@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Truescore — Know who can actually do the data work, before you hire</title>
+<meta name="description" content="Truescore: done-for-you vetting for data analysts, data scientists, researchers and M&E officers. Practical, expert-scored assessments with a clear hire/no-hire recommendation." />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+          display: ['Fraunces', 'Georgia', 'serif'],
+        },
+        colors: {
+          ink: '#0c1a24',
+          slate2: '#33505f',
+          teal: { 500: '#0d9488', 600: '#0f766e', 700: '#115e59' },
+          sand: '#f6f3ec',
+          amber2: '#d9893a',
+        },
+      },
+    },
+  };
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  .grad-ink { background: radial-gradient(1200px 600px at 70% -10%, #163243 0%, #0c1a24 55%, #08131b 100%); }
+  .card-shadow { box-shadow: 0 1px 2px rgba(12,26,36,.06), 0 12px 30px -12px rgba(12,26,36,.18); }
+</style>
+</head>
+<body class="font-sans text-ink bg-white antialiased">
+
+<!-- NAV -->
+<header class="sticky top-0 z-40 backdrop-blur bg-white/85 border-b border-ink/10">
+  <nav class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+    <a href="#top" class="flex items-center gap-2 font-display font-700 text-lg text-ink">
+      <span class="inline-grid place-items-center w-8 h-8 rounded-lg bg-teal-600 text-white text-sm font-sans font-700">T</span>
+      Truescore
+    </a>
+    <div class="hidden md:flex items-center gap-7 text-sm font-500 text-slate2">
+      <a href="#problem" class="hover:text-ink transition">The problem</a>
+      <a href="#how" class="hover:text-ink transition">How it works</a>
+      <a href="#vet" class="hover:text-ink transition">What we vet</a>
+      <a href="#proof" class="hover:text-ink transition">Proof</a>
+      <a href="#faq" class="hover:text-ink transition">FAQ</a>
+    </div>
+    <a href="#book" class="inline-flex items-center rounded-full bg-teal-600 hover:bg-teal-700 text-white text-sm font-600 px-5 py-2.5 transition">Book a call</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="grad-ink text-white">
+  <div class="max-w-6xl mx-auto px-5 pt-20 pb-24 md:pt-28 md:pb-32">
+    <p class="inline-flex items-center gap-2 text-xs font-600 tracking-wide uppercase text-teal-500/90 bg-teal-500/10 border border-teal-500/20 rounded-full px-3 py-1.5">
+      Done-for-you talent vetting
+    </p>
+    <h1 class="mt-6 font-display font-700 text-4xl md:text-6xl leading-[1.05] max-w-4xl">
+      Know who can <span class="text-teal-500">actually do the data work</span> — before you hire them.
+    </h1>
+    <p class="mt-6 text-lg md:text-xl text-white/75 max-w-2xl leading-relaxed">
+      Résumés market. Interviews measure nerves. Truescore gives hiring teams an expert-scored, practical assessment of every candidate — with a clear hire / no-hire recommendation you can defend.
+    </p>
+    <div class="mt-9 flex flex-col sm:flex-row gap-3">
+      <a href="https://calendly.com/d-munene-mwaniki/15min" target="_blank" rel="noopener" class="inline-flex justify-center items-center rounded-full bg-teal-600 hover:bg-teal-700 text-white font-600 px-7 py-3.5 transition">Book a 15-min call</a>
+      <a href="#proof" class="inline-flex justify-center items-center rounded-full border border-white/25 hover:border-white/50 text-white font-600 px-7 py-3.5 transition">See a sample Scorecard</a>
+    </div>
+    <div class="mt-12 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-white/55">
+      <span class="font-600 text-white/70">Built on 9+ years across</span>
+      <span>GeoPoll</span><span>·</span><span>Dalberg Research</span><span>·</span><span>KOKO Networks</span><span>·</span><span>Jacaranda Health</span>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="border-b border-ink/10 bg-sand">
+  <div class="max-w-6xl mx-auto px-5 py-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+    <div><div class="font-display font-700 text-3xl text-teal-700">9+ yrs</div><div class="text-sm text-slate2 mt-1">hands-on data & research</div></div>
+    <div><div class="font-display font-700 text-3xl text-teal-700">50+</div><div class="text-sm text-slate2 mt-1">research projects led</div></div>
+    <div><div class="font-display font-700 text-3xl text-teal-700">10+</div><div class="text-sm text-slate2 mt-1">candidates assessed & coached</div></div>
+    <div><div class="font-display font-700 text-3xl text-teal-700">90%</div><div class="text-sm text-slate2 mt-1">tutoring progression rate</div></div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section id="problem" class="max-w-6xl mx-auto px-5 py-20 md:py-28">
+  <div class="max-w-2xl">
+    <p class="text-teal-700 font-600 text-sm uppercase tracking-wide">The hiring gap</p>
+    <h2 class="mt-3 font-display font-700 text-3xl md:text-4xl leading-tight">A data hire either compounds your decisions — or quietly corrupts them.</h2>
+    <p class="mt-5 text-lg text-slate2 leading-relaxed">And by the time you find out which, it's months and several reports too late. The usual signals don't tell you who can do the work.</p>
+  </div>
+  <div class="mt-12 grid md:grid-cols-3 gap-5">
+    <div class="rounded-2xl border border-ink/10 p-6 card-shadow">
+      <h3 class="font-600 text-lg">Résumés are marketing</h3>
+      <p class="mt-2 text-slate2 leading-relaxed">A degree and a tool list don't reveal who can clean messy survey data or design a defensible analysis.</p>
+    </div>
+    <div class="rounded-2xl border border-ink/10 p-6 card-shadow">
+      <h3 class="font-600 text-lg">Interviews measure composure</h3>
+      <p class="mt-2 text-slate2 leading-relaxed">Your senior people burn hours on candidates they can't properly evaluate — and confident talkers slip through.</p>
+    </div>
+    <div class="rounded-2xl border border-ink/10 p-6 card-shadow">
+      <h3 class="font-600 text-lg">Generic tests miss the point</h3>
+      <p class="mt-2 text-slate2 leading-relaxed">Off-the-shelf coding quizzes don't assess research design or M&E reasoning at all — the judgment that actually matters.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="bg-ink text-white">
+  <div class="max-w-6xl mx-auto px-5 py-20 md:py-28">
+    <div class="max-w-2xl">
+      <p class="text-teal-500 font-600 text-sm uppercase tracking-wide">How it works</p>
+      <h2 class="mt-3 font-display font-700 text-3xl md:text-4xl leading-tight">Three steps from job opening to a confident decision.</h2>
+    </div>
+    <div class="mt-12 grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl bg-white/5 border border-white/10 p-7">
+        <div class="w-10 h-10 grid place-items-center rounded-xl bg-teal-600 font-700">1</div>
+        <h3 class="mt-5 font-600 text-xl">Scope &amp; rubric</h3>
+        <p class="mt-2 text-white/70 leading-relaxed">A short call to define the role and the skills that matter. You get a weighted scoring rubric tailored to the job — not a generic checklist.</p>
+      </div>
+      <div class="rounded-2xl bg-white/5 border border-white/10 p-7">
+        <div class="w-10 h-10 grid place-items-center rounded-xl bg-teal-600 font-700">2</div>
+        <h3 class="mt-5 font-600 text-xl">Assess</h3>
+        <p class="mt-2 text-white/70 leading-relaxed">Candidates complete a practical, role-appropriate task on real data — SQL/Python/R, analysis design, research &amp; M&E reasoning, or dashboarding. No cheating-friendly multiple choice.</p>
+      </div>
+      <div class="rounded-2xl bg-white/5 border border-white/10 p-7">
+        <div class="w-10 h-10 grid place-items-center rounded-xl bg-teal-600 font-700">3</div>
+        <h3 class="mt-5 font-600 text-xl">The Scorecard</h3>
+        <p class="mt-2 text-white/70 leading-relaxed">Each candidate scored against the rubric — strengths, risks, evidence, and a clear hire / no-hire recommendation. Optional debrief call to walk you through it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT WE VET -->
+<section id="vet" class="max-w-6xl mx-auto px-5 py-20 md:py-28">
+  <div class="max-w-2xl">
+    <p class="text-teal-700 font-600 text-sm uppercase tracking-wide">What we vet</p>
+    <h2 class="mt-3 font-display font-700 text-3xl md:text-4xl leading-tight">Roles where judgment, not just code, decides the hire.</h2>
+    <p class="mt-5 text-lg text-slate2 leading-relaxed">Each assessment is built for the specific role and seniority you're hiring.</p>
+  </div>
+  <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+    <div class="rounded-2xl border border-ink/10 p-6 card-shadow">
+      <h3 class="font-600 text-lg text-teal-700">Data Analysts</h3>
+      <p class="mt-2 text-slate2 leading-relaxed text-[15px]">SQL, cleaning messy data, analysis design, and dashboards a director will actually trust.</p>
+    </div>
+    <div class="rounded-2xl border border-ink/10 p-6 card-shadow">
+      <h3 class="font-600 text-lg text-teal-700">Data Scientists</h3>
+      <p class="mt-2 text-slate2 leading-relaxed text-[15px]">Python/ML reasoning, feature thinking, model evaluation, and the sense to know what's worth modelling.</p>
+    </div>
+    <div class="rounded-2xl border border-ink/10 p-6 card-shadow">
+      <h3 class="font-600 text-lg text-teal-700">Researchers</h3>
+      <p class="mt-2 text-slate2 leading-relaxed text-[15px]">Study &amp; survey design, sampling logic, data quality, and turning fieldwork into credible findings.</p>
+    </div>
+    <div class="rounded-2xl border border-ink/10 p-6 card-shadow">
+      <h3 class="font-600 text-lg text-teal-700">M&amp;E Officers</h3>
+      <p class="mt-2 text-slate2 leading-relaxed text-[15px]">Indicator and MEL-framework design, linking data to outcomes, and donor-ready reporting rigor.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF / SAMPLE SCORECARD -->
+<section id="proof" class="bg-sand">
+  <div class="max-w-6xl mx-auto px-5 py-20 md:py-28 grid lg:grid-cols-2 gap-12 items-start">
+    <div>
+      <p class="text-teal-700 font-600 text-sm uppercase tracking-wide">What you receive</p>
+      <h2 class="mt-3 font-display font-700 text-3xl md:text-4xl leading-tight">A Scorecard you can put in front of a hiring panel.</h2>
+      <p class="mt-5 text-lg text-slate2 leading-relaxed">Every candidate is scored against the same role rubric, with the evidence behind each score. Defensible, comparable, and fast to read.</p>
+      <ul class="mt-7 space-y-3 text-slate2">
+        <li class="flex gap-3"><span class="text-teal-600 font-700">→</span> Weighted scores per competency, not a single vague number</li>
+        <li class="flex gap-3"><span class="text-teal-600 font-700">→</span> Concrete strengths and risks, tied to what they actually did</li>
+        <li class="flex gap-3"><span class="text-teal-600 font-700">→</span> A clear recommendation: hire, hire with support, or pass</li>
+        <li class="flex gap-3"><span class="text-teal-600 font-700">→</span> Side-by-side comparison across a shortlist</li>
+      </ul>
+    </div>
+
+    <!-- SAMPLE SCORECARD MOCKUP -->
+    <div class="rounded-2xl bg-white border border-ink/10 card-shadow overflow-hidden">
+      <div class="bg-ink text-white px-6 py-5 flex items-center justify-between">
+        <div>
+          <div class="text-xs uppercase tracking-wide text-teal-500 font-600">Truescore · Sample</div>
+          <div class="font-600 text-lg mt-0.5">Candidate A — Data Analyst</div>
+        </div>
+        <div class="text-right">
+          <div class="font-display font-700 text-3xl">78<span class="text-base text-white/50">/100</span></div>
+          <div class="text-xs text-teal-500 font-600 mt-0.5">Hire with support</div>
+        </div>
+      </div>
+      <div class="p-6 space-y-4">
+        <!-- bars -->
+        <div>
+          <div class="flex justify-between text-sm font-500"><span>SQL &amp; data wrangling</span><span class="text-slate2">85</span></div>
+          <div class="mt-1.5 h-2 rounded-full bg-ink/10"><div class="h-2 rounded-full bg-teal-600" style="width:85%"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm font-500"><span>Analysis design</span><span class="text-slate2">72</span></div>
+          <div class="mt-1.5 h-2 rounded-full bg-ink/10"><div class="h-2 rounded-full bg-teal-600" style="width:72%"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm font-500"><span>Data quality &amp; rigor</span><span class="text-slate2">80</span></div>
+          <div class="mt-1.5 h-2 rounded-full bg-ink/10"><div class="h-2 rounded-full bg-teal-600" style="width:80%"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm font-500"><span>Communication of findings</span><span class="text-slate2">66</span></div>
+          <div class="mt-1.5 h-2 rounded-full bg-ink/10"><div class="h-2 rounded-full bg-amber2" style="width:66%"></div></div>
+        </div>
+        <div class="pt-2 border-t border-ink/10 grid sm:grid-cols-2 gap-4 text-[13px] leading-relaxed">
+          <div>
+            <div class="font-600 text-teal-700">Strengths</div>
+            <p class="text-slate2 mt-1">Clean, well-commented SQL; caught a duplicate-join error most miss.</p>
+          </div>
+          <div>
+            <div class="font-600 text-amber2">Watch</div>
+            <p class="text-slate2 mt-1">Chart choices buried the headline; would benefit from review on storytelling.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CASE STUDIES -->
+  <div class="max-w-6xl mx-auto px-5 pb-20 md:pb-28">
+    <p class="font-600 text-slate2 text-sm">What "good" looks like — selected reference work</p>
+    <div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <a href="https://github.com/Neshmwaniki/garmin-weekly-report/tree/main" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-5 hover:border-teal-600 transition card-shadow">
+        <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Reporting automation</div>
+        <h3 class="mt-2 font-600 group-hover:text-teal-700 transition">Garmin Weekly Report</h3>
+        <p class="mt-1.5 text-sm text-slate2">Automated personal-fitness reporting pipeline.</p>
+      </a>
+      <a href="https://github.com/Neshmwaniki/Customer-Product-Analysis-CaseStudy" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-5 hover:border-teal-600 transition card-shadow">
+        <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Business analysis</div>
+        <h3 class="mt-2 font-600 group-hover:text-teal-700 transition">Customer &amp; Product Analysis</h3>
+        <p class="mt-1.5 text-sm text-slate2">Case study turning sales data into decisions.</p>
+      </a>
+      <a href="https://github.com/Neshmwaniki/agricultural_survey_analysis" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-5 hover:border-teal-600 transition card-shadow">
+        <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Research / M&amp;E</div>
+        <h3 class="mt-2 font-600 group-hover:text-teal-700 transition">Agricultural Survey Analysis</h3>
+        <p class="mt-1.5 text-sm text-slate2">Field-survey data cleaned and analyzed end-to-end.</p>
+      </a>
+      <a href="https://github.com/Neshmwaniki/Customers-Name-Gender-Classification" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-5 hover:border-teal-600 transition card-shadow">
+        <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">ML / NLP</div>
+        <h3 class="mt-2 font-600 group-hover:text-teal-700 transition">Name → Gender Classification</h3>
+        <p class="mt-1.5 text-sm text-slate2">NLP text-classification on messy free-text fields.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT / WHY ME -->
+<section class="max-w-6xl mx-auto px-5 py-20 md:py-28 grid lg:grid-cols-3 gap-10">
+  <div class="lg:col-span-1">
+    <p class="text-teal-700 font-600 text-sm uppercase tracking-wide">Who scores</p>
+    <h2 class="mt-3 font-display font-700 text-3xl leading-tight">Denis Mwaniki</h2>
+    <p class="mt-2 text-slate2 font-500">Data &amp; Technology Manager · Nairobi</p>
+  </div>
+  <div class="lg:col-span-2 text-lg text-slate2 leading-relaxed space-y-4">
+    <p>Nine-plus years building data products, pipelines, and analytics across commercial and development programs — GeoPoll, Dalberg Research, KOKO Networks, and Jacaranda Health. Hands-on across SQL, Python, R, and a modern data stack, with deep roots in survey research, data quality, and M&E.</p>
+    <p>I've also been on the other side of the table: interviewing and assessing aspiring data scientists, designing their learning paths, and tracking who actually made it. Evaluating data talent isn't a side gig — it's something I've done for years. Truescore turns that judgment into something your hiring team can buy.</p>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section class="bg-ink text-white">
+  <div class="max-w-6xl mx-auto px-5 py-20 md:py-28">
+    <div class="max-w-2xl">
+      <p class="text-teal-500 font-600 text-sm uppercase tracking-wide">Ways to work together</p>
+      <h2 class="mt-3 font-display font-700 text-3xl md:text-4xl leading-tight">Start with one candidate. Scale to your whole pipeline.</h2>
+    </div>
+    <div class="mt-12 grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl bg-white/5 border border-white/10 p-7">
+        <h3 class="font-600 text-xl">Single Scorecard</h3>
+        <p class="mt-2 text-white/70 leading-relaxed">Vet one candidate for one role. A low-risk way to see the value before you commit.</p>
+        <a href="#book" class="mt-5 inline-flex text-teal-500 font-600 hover:text-teal-400">Book a call →</a>
+      </div>
+      <div class="rounded-2xl bg-teal-600/15 border border-teal-500/40 p-7 relative">
+        <span class="absolute -top-3 left-7 text-xs font-700 uppercase tracking-wide bg-teal-500 text-ink rounded-full px-3 py-1">Most popular</span>
+        <h3 class="font-600 text-xl">Shortlist</h3>
+        <p class="mt-2 text-white/75 leading-relaxed">Vet a batch of candidates for one role and get a ranked, side-by-side comparison.</p>
+        <a href="#book" class="mt-5 inline-flex text-teal-400 font-600 hover:text-teal-300">Book a call →</a>
+      </div>
+      <div class="rounded-2xl bg-white/5 border border-white/10 p-7">
+        <h3 class="font-600 text-xl">Embedded vetting</h3>
+        <p class="mt-2 text-white/70 leading-relaxed">A retainer for teams hiring continuously — rubric design plus ongoing vetting as roles open.</p>
+        <a href="#book" class="mt-5 inline-flex text-teal-500 font-600 hover:text-teal-400">Book a call →</a>
+      </div>
+    </div>
+    <p class="mt-8 text-sm text-white/45">Pricing is scoped to your roles and volume on the call — you only pay for the risk we take off the table.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="max-w-3xl mx-auto px-5 py-20 md:py-28">
+  <h2 class="font-display font-700 text-3xl md:text-4xl text-center">Questions</h2>
+  <div class="mt-10 divide-y divide-ink/10 border-t border-ink/10">
+    <details class="group py-5">
+      <summary class="flex justify-between items-center cursor-pointer font-600 text-lg list-none">Why not just use a free online test?<span class="text-teal-600 group-open:rotate-45 transition text-2xl leading-none">+</span></summary>
+      <p class="mt-3 text-slate2 leading-relaxed">Automated tests check syntax, not judgment. They can't tell you whether a candidate designed a sound analysis, handled messy real-world data well, or would survive a donor audit. That's the gap an expert scorer fills.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center cursor-pointer font-600 text-lg list-none">Do you place or recruit candidates?<span class="text-teal-600 group-open:rotate-45 transition text-2xl leading-none">+</span></summary>
+      <p class="mt-3 text-slate2 leading-relaxed">No. We're independent. You bring the candidates (or your recruiter does); we assess them objectively. No incentive to push anyone through.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center cursor-pointer font-600 text-lg list-none">How fast is turnaround?<span class="text-teal-600 group-open:rotate-45 transition text-2xl leading-none">+</span></summary>
+      <p class="mt-3 text-slate2 leading-relaxed">Typically a few business days from when candidates submit, depending on volume. We agree timelines on the scoping call.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center cursor-pointer font-600 text-lg list-none">What roles can you assess?<span class="text-teal-600 group-open:rotate-45 transition text-2xl leading-none">+</span></summary>
+      <p class="mt-3 text-slate2 leading-relaxed">Data analysts, data scientists, researchers, and M&E officers — junior through senior. If your role lives near these themes, ask on the call.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center cursor-pointer font-600 text-lg list-none">How do you stop cheating?<span class="text-teal-600 group-open:rotate-45 transition text-2xl leading-none">+</span></summary>
+      <p class="mt-3 text-slate2 leading-relaxed">Tasks are designed to reward reasoning over recall, and the scoring looks for evidence of genuine understanding — the kind of work that's hard to fake and easy to probe in a short follow-up.</p>
+    </details>
+  </div>
+</section>
+
+<!-- BOOK CTA -->
+<section id="book" class="grad-ink text-white">
+  <div class="max-w-3xl mx-auto px-5 py-20 md:py-28 text-center">
+    <h2 class="font-display font-700 text-3xl md:text-5xl leading-tight">Make your next data hire a sure thing.</h2>
+    <p class="mt-5 text-lg text-white/75">Book a free 15-minute call. We'll scope one role and you'll see exactly what a Truescore Scorecard would tell you.</p>
+    <div class="mt-9 flex flex-col sm:flex-row gap-3 justify-center">
+      <a href="https://calendly.com/d-munene-mwaniki/15min" target="_blank" rel="noopener" class="inline-flex justify-center items-center rounded-full bg-teal-600 hover:bg-teal-700 text-white font-600 px-8 py-4 transition">Book a call</a>
+      <a href="mailto:d.munene.mwaniki@gmail.com?subject=Truescore%20vetting%20enquiry" class="inline-flex justify-center items-center rounded-full border border-white/25 hover:border-white/50 text-white font-600 px-8 py-4 transition">Email instead</a>
+    </div>
+    <p class="mt-6 text-sm text-white/45">No obligation. If we're not a fit, I'll tell you.</p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-ink text-white/60 border-t border-white/10">
+  <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+    <div class="flex items-center gap-2 text-white font-display font-700">
+      <span class="inline-grid place-items-center w-7 h-7 rounded-lg bg-teal-600 text-white text-xs font-sans font-700">T</span>
+      Truescore
+    </div>
+    <p>© <span id="yr"></span> Denis Mwaniki · Nairobi, Kenya</p>
+    <a href="mailto:d.munene.mwaniki@gmail.com" class="hover:text-white transition">d.munene.mwaniki@gmail.com</a>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+
+<!-- Cloudflare Web Analytics — replace YOUR_TOKEN after you create a site at dash.cloudflare.com > Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN"}'></script>
+<!-- End Cloudflare Web Analytics -->
+</body>
+</html>
