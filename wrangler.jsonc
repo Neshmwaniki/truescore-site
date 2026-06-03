@@ -1,0 +1,9 @@
+{
+  // Tells Cloudflare this project is a static site (no server code),
+  // so `npx wrangler deploy` just publishes the files in this folder.
+  "name": "truescore-site",
+  "compatibility_date": "2025-05-01",
+  "assets": {
+    "directory": "./"
+  }
+}
