@@ -29,6 +29,13 @@
           sans: ['Inter', 'ui-sans-serif', 'system-ui'],
           display: ['Fraunces', 'Georgia', 'serif'],
         },
+        fontWeight: {
+          400: '400',
+          500: '500',
+          600: '600',
+          700: '700',
+          800: '800',
+        },
         colors: {
           ink: '#0c1a24',
           slate2: '#33505f',
@@ -261,28 +268,88 @@
 
   <!-- CASE STUDIES -->
   <div class="max-w-6xl mx-auto px-5 pb-20 md:pb-28">
-    <p class="font-600 text-slate2 text-sm">What "good" looks like — selected reference work</p>
-    <div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-      <a href="https://github.com/Neshmwaniki/garmin-weekly-report/tree/main" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-5 hover:border-teal-600 transition card-shadow">
-        <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Reporting automation</div>
-        <h3 class="mt-2 font-600 group-hover:text-teal-700 transition">Garmin Weekly Report</h3>
-        <p class="mt-1.5 text-sm text-slate2">Automated personal-fitness reporting pipeline.</p>
+    <p class="text-teal-700 font-600 text-sm uppercase tracking-wide">Reference work</p>
+    <h2 class="mt-3 font-display font-700 text-3xl md:text-4xl leading-tight">What "good" actually looks like.</h2>
+    <p class="mt-4 text-lg text-slate2 leading-relaxed max-w-3xl">These public projects show the same competencies Truescore scores in candidates — data wrangling, analytical reasoning, rigor on messy data, and clear communication. Each one tells you <span class="text-ink font-600">why it's good</span> before you ever open the code.</p>
+
+    <div class="mt-8 grid md:grid-cols-2 gap-5">
+
+      <!-- Card 1 -->
+      <a href="https://github.com/Neshmwaniki/Customer-Product-Analysis-CaseStudy" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-6 hover:border-teal-600 transition card-shadow flex gap-4">
+        <div class="shrink-0 w-12 h-12 rounded-xl bg-sand grid place-items-center text-teal-700">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="11" width="3" height="6"/><rect x="12" y="7" width="3" height="10"/><rect x="17" y="13" width="3" height="4"/></svg>
+        </div>
+        <div>
+          <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Business analysis</div>
+          <h3 class="mt-1 font-700 text-lg group-hover:text-teal-700 transition">Customer &amp; Product Analysis</h3>
+          <p class="mt-2 text-sm text-slate2 leading-relaxed">A full case study that turns raw sales data into clear commercial recommendations — not just charts, but decisions.</p>
+          <p class="mt-3 text-sm text-ink leading-relaxed"><span class="font-600 text-teal-700">Why it's good:</span> frames the right business question and defends the answer with evidence — the core of analytical reasoning.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">SQL</span>
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Exploratory analysis</span>
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Business insight</span>
+          </div>
+          <div class="mt-4 text-sm font-600 text-teal-700 group-hover:translate-x-0.5 transition">View code on GitHub →</div>
+        </div>
       </a>
-      <a href="https://github.com/Neshmwaniki/Customer-Product-Analysis-CaseStudy" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-5 hover:border-teal-600 transition card-shadow">
-        <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Business analysis</div>
-        <h3 class="mt-2 font-600 group-hover:text-teal-700 transition">Customer &amp; Product Analysis</h3>
-        <p class="mt-1.5 text-sm text-slate2">Case study turning sales data into decisions.</p>
+
+      <!-- Card 2 -->
+      <a href="https://github.com/Neshmwaniki/agricultural_survey_analysis" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-6 hover:border-teal-600 transition card-shadow flex gap-4">
+        <div class="shrink-0 w-12 h-12 rounded-xl bg-sand grid place-items-center text-teal-700">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+        </div>
+        <div>
+          <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Research / M&amp;E</div>
+          <h3 class="mt-1 font-700 text-lg group-hover:text-teal-700 transition">Agricultural Survey Analysis</h3>
+          <p class="mt-2 text-sm text-slate2 leading-relaxed">Messy, real-world field-survey data cleaned, validated, and analyzed end-to-end into findings a programme team could use.</p>
+          <p class="mt-3 text-sm text-ink leading-relaxed"><span class="font-600 text-teal-700">Why it's good:</span> data-quality rigor on imperfect survey data — exactly what M&amp;E and research roles live or die on.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Data cleaning</span>
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Survey data</span>
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Python</span>
+          </div>
+          <div class="mt-4 text-sm font-600 text-teal-700 group-hover:translate-x-0.5 transition">View code on GitHub →</div>
+        </div>
       </a>
-      <a href="https://github.com/Neshmwaniki/agricultural_survey_analysis" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-5 hover:border-teal-600 transition card-shadow">
-        <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Research / M&amp;E</div>
-        <h3 class="mt-2 font-600 group-hover:text-teal-700 transition">Agricultural Survey Analysis</h3>
-        <p class="mt-1.5 text-sm text-slate2">Field-survey data cleaned and analyzed end-to-end.</p>
+
+      <!-- Card 3 -->
+      <a href="https://github.com/Neshmwaniki/garmin-weekly-report/tree/main" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-6 hover:border-teal-600 transition card-shadow flex gap-4">
+        <div class="shrink-0 w-12 h-12 rounded-xl bg-sand grid place-items-center text-teal-700">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v5h-5"/></svg>
+        </div>
+        <div>
+          <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Reporting automation</div>
+          <h3 class="mt-1 font-700 text-lg group-hover:text-teal-700 transition">Garmin Weekly Report</h3>
+          <p class="mt-2 text-sm text-slate2 leading-relaxed">An automated pipeline that pulls fitness data and generates a formatted weekly report on its own — zero manual steps.</p>
+          <p class="mt-3 text-sm text-ink leading-relaxed"><span class="font-600 text-teal-700">Why it's good:</span> reproducible, automated reporting — the discipline that keeps recurring M&amp;E dashboards reliable.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Python</span>
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Automation</span>
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Reporting</span>
+          </div>
+          <div class="mt-4 text-sm font-600 text-teal-700 group-hover:translate-x-0.5 transition">View code on GitHub →</div>
+        </div>
       </a>
-      <a href="https://github.com/Neshmwaniki/Customers-Name-Gender-Classification" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-5 hover:border-teal-600 transition card-shadow">
-        <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">ML / NLP</div>
-        <h3 class="mt-2 font-600 group-hover:text-teal-700 transition">Name → Gender Classification</h3>
-        <p class="mt-1.5 text-sm text-slate2">NLP text-classification on messy free-text fields.</p>
+
+      <!-- Card 4 -->
+      <a href="https://github.com/Neshmwaniki/Customers-Name-Gender-Classification" target="_blank" rel="noopener" class="group rounded-2xl border border-ink/10 bg-white p-6 hover:border-teal-600 transition card-shadow flex gap-4">
+        <div class="shrink-0 w-12 h-12 rounded-xl bg-sand grid place-items-center text-teal-700">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg>
+        </div>
+        <div>
+          <div class="text-xs font-600 text-teal-700 uppercase tracking-wide">Machine learning / NLP</div>
+          <h3 class="mt-1 font-700 text-lg group-hover:text-teal-700 transition">Name → Gender Classification</h3>
+          <p class="mt-2 text-sm text-slate2 leading-relaxed">A text-classification model that infers gender from messy, free-text name fields — handling real-world noise, not clean demos.</p>
+          <p class="mt-3 text-sm text-ink leading-relaxed"><span class="font-600 text-teal-700">Why it's good:</span> applied ML on imperfect text with proper evaluation — feature thinking beyond a copied tutorial.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">NLP</span>
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Classification</span>
+            <span class="text-xs font-500 text-slate2 bg-ink/5 rounded-full px-2.5 py-1">Python</span>
+          </div>
+          <div class="mt-4 text-sm font-600 text-teal-700 group-hover:translate-x-0.5 transition">View code on GitHub →</div>
+        </div>
       </a>
+
     </div>
   </div>
 </section>
