@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://truescore-site.truescore-analytics.workers.dev/sitemap.xml
